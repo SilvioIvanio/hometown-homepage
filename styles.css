@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Stylish", sans-serif;
+    text-align: center;
+}
+
+header {
+    background-image: url("img/luanda.jpeg");
+    background-size: cover;
+    height: 720px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+   color: white;
+   background-color: #1D3557;
+   padding: 5px 40px;
+   border-radius: 10px;
+   font-size: 32px;
+}
+
+#description {
+   color: white;
+   background-color: #457B9D;
+   padding: 5px 20px;
+   border-radius: 10px;
+   font-size: 20px;
+   margin-top: 10px;
+}
+
+#activities-section {
+    background-color: #DFCAAA;
+    margin: 0;
+}
+
+#title-activity {
+    color: #1D3557;
+    font-size: 24px;
+    margin: 20px
+}
+
