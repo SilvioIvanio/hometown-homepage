@@ -36,11 +36,43 @@ header {
 #activities-section {
     background-color: #DFCAAA;
     margin: 0;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
 }
 
-#title-activity {
+#activity-title {
     color: #1D3557;
-    font-size: 24px;
-    margin: 20px
+    font-size: 28px;
+    margin: 50px 0;
 }
+
+#activities-container {
+   display: flex;
+   justify-content: center;
+
+}
+
+.activity img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.activity {
+    background-color: #7DA6D2;
+    padding: 20px;
+    margin: 20px;
+    width: 25%;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.activity:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0 4px 8px #000;
+}
+
+
 
