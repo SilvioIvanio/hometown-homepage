@@ -54,8 +54,8 @@ header {
 }
 
 .activity img {
-    width: 300px;
-    height: 200px;
+    width: 70%;
+    height: 250px;
     border-radius: 10px;
 }
 
@@ -66,6 +66,7 @@ header {
     width: 25%;
     height: 400px;
     border-radius: 10px;
+    border-bottom: 6px solid #1D3557;
 }
 
 .activity:hover {
@@ -74,5 +75,52 @@ header {
     box-shadow: 0 4px 8px #000;
 }
 
+#guide-section {
+    background-color: #D6AB79;
+    height: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#guide-container {
+    background-color: #7DA6D2;
+    display: flex;
+    width: 50%;
+    height: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 8px solid #1D3557;
+}
+
+#guide-container img {
+    width: 45%;
+    height: 90%;
+    border-radius: 10px;
+    margin: auto 0;
+}
+
+#guide-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: auto auto;
+    color: #1D3557;
+}
+
+#guide-title {
+    font-size: 28px;
+}
+
+#guide-p {
+    font-size: 24px;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+#guider {
+    font-size: 16px;
+    font-style: italic;
+}
 
